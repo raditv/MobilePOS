@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.odoo.pos"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.odoo.pos.views.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.odoo.pos.views.SplashScreenActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.odoo.pos.views.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.odoo.pos.views.InventoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.odoo.pos.views.AddProductActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.odoo.pos.views.stock.AddProductLotActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.odoo.pos.views.stock.ProductDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.odoo.pos.views.SaleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.odoo.pos.views.StockActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.odoo.pos.views.SaleProductCatalog"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.odoo.pos.views.sale.SaleLedgerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.achartengine.GraphicalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.odoo.pos.views.sale.SaleDetailActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

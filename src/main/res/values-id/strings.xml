@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ODOO POS</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="total">Total</string>
+    <string name="barcode">Barcode</string>
+    <string name="cancel">Batal</string>
+    <string name="clear">Clear</string>
+    <string name="edit">Ubah</string>
+    <string name="confirm">Selesai</string>
+    <string name="date">Tanggal</string>
+    <string name="date_added">Tanggal Masuk</string>
+    <string name="quantity">Jumlah</string>
+    <string name="remove">Hapus</string>
+    <string name="scan">Scan</string>
+    <string name="unit_price">Harga Satuan</string>
+    <string name="name">Nama</string>
+    <string name="id">ID</string>
+    <string name="cash">Tunai</string>
+    <string name="change">Kembalian</string>
+    <string name="hint_search">Masukan Nama atau Barcode</string>
+    <string name="hint_cash">Masukan nilai uang disini</string>
+    <string name="add_new_product">Tambah Produk</string>
+    <string name="add_stock">Tambah Produk Lot</string>
+    <string name="previous">&lt;</string>
+    <string name="next">></string>
+    <string name="inventory">Inventori</string>
+    <string name="sale">Penjualan</string>
+    <string name="report">Laporan</string>
+
+    <string name="dialog_quit">Anda yakin akan keluar?</string>
+    <string name="dialog_remove_product">Anda yakin akan MENGHAPUS produk ini?</string>
+    <string name="dialog_clear_sale">Anda yakin akan MENGOSONGKAN penjualan ini?</string>
+    <string name="hint_empty_sale">Tidak ada penjualan.</string>
+    <string name="quit">Keluar</string>
+    <string name="no">Tidak</string>
+    <string name="product_detail">Detil Produk</string>
+    <string name="stock">Stok</string>
+    <string name="success">Sukses</string>
+    <string name="fail">Gagal</string>
+    <string name="please_input_all">Mohon Masukan Semua Data.</string>
+    <string name="need_money">Butuh</string>
+
+
+    <string name="hint_lang">Silahkan restart aplikasi untuk merubah bahasa.</string>
+
+
+    <string-array name="period">
+        <item>Harian</item>
+        <item>Mingguan</item>
+        <item>Bulanan</item>
+        <item>Tahunan</item>
+    </string-array>
+
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <string name="lang_en">English</string>
+    <string name="lang_id">Bahasa Indonesia</string>
+
+</resources>
